@@ -1,48 +1,59 @@
-# 🍃 Gatsby Leaflet Starter
+# 🍃 Coronavirus Map
 
-Jumpstart your next Gatsby mapping project with Leaflet!
-
-## ⚡ Quick Deploy
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/colbyfayock/gatsby-starter-leaflet) [![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/colbyfayock/gatsby-starter-leaflet)
-
+Coronavirus Map developed using Gatsby based on this [article](https://www-freecodecamp-org.cdn.ampproject.org/c/s/www.freecodecamp.org/news/how-to-create-a-coronavirus-covid-19-dashboard-map-app-in-react-with-gatsby-and-leaflet/amp/).
 
 ## 🧰 What This Includes
-* [Yarn](https://yarnpkg.com/en/)
-* [Gatsby](https://www.gatsbyjs.org/)
-* [Sass](https://sass-lang.com)
-* [React Helmet](https://github.com/nfl/react-helmet)
-* [Resolve Src](https://github.com/alampros/gatsby-plugin-resolve-src)
-* [Leaflet](https://leafletjs.com/)
-* [React Leaflet](https://react-leaflet.js.org)
+
+- [Yarn](https://yarnpkg.com/en/)
+- [Gatsby](https://www.gatsbyjs.org/)
+- [Sass](https://sass-lang.com)
+- [React Helmet](https://github.com/nfl/react-helmet)
+- [Resolve Src](https://github.com/alampros/gatsby-plugin-resolve-src)
+- [Leaflet](https://leafletjs.com/)
+- [React Leaflet](https://react-leaflet.js.org)
 
 ## 🚀 Getting Started
 
 ### Requirements
-* [Gatsby CLI](https://www.npmjs.com/package/gatsby-cli)
-* [Yarn](https://yarnpkg.com/en/)
+
+- [Gatsby CLI](https://www.npmjs.com/package/gatsby-cli)
+- [Yarn](https://yarnpkg.com/en/)
 
 ### Quick Start
+
 Run the following in your favorite terminal:
-```
-gatsby new [directory] https://github.com/colbyfayock/gatsby-starter-leaflet
+
+```sh
+git clone https://github.com/danielccunha/coronavirus-map
+cd coronavirus-map
+yarn develop
 ```
 
 ### Starting from Scratch
-* Set up Yarn: https://yarnpkg.com/lang/en/docs/install/#mac-stable)[https://yarnpkg.com/lang/en/docs/install/
-* Install the Gatsby CLI globally:
-```
+
+- Set up [Yarn](https://yarnpkg.com/lang/en/docs/install/)
+- Install the Gatsby CLI globally:
+
+```sh
 yarn global add gatsby-cli
 ```
-* Inside the directory of your choice, scaffold a new Gatsby site:
+
+- Inside the directory of your choice, scaffold a new Gatsby site:
+
 ```
 gatsby new [directory] https://github.com/colbyfayock/gatsby-starter-leaflet
 ```
+
 For example, if I want my installation in `~/Code/new-gatsby-site`, I would navigate to `~/Code` and run:
+
 ```
 gatsby new new-gatsby-site https://github.com/colbyfayock/gatsby-starter-leaflet
 ```
-* Navigate to your new directory and run:
+
+- Navigate to your new directory and run:
+
 ```
 yarn develop
 ```
-* You should now be running a new Gatsby site locally! 🎉
+
+- You should now be running a new Gatsby site locally using Leaflet starter project! 🎉
